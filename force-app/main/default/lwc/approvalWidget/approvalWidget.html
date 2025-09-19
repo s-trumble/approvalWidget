@@ -1,0 +1,40 @@
+<template>
+    <lightning-card title="Approvals">
+        <div class="slds-m-around_medium slds-align_absolute-center">
+            <div class="slds-grid">
+                <div class="slds-col slds-text-align_center approval-border">
+                    <a href="/lightning/o/ApprovalSubmission/list?filterName=Pending_ApprovalSubmissions" target="_self">
+                        <lightning-icon icon-name="standard:approval" size="large"></lightning-icon>
+                    </a>
+                    <div>
+                        <a href="/lightning/o/ApprovalSubmission/list?filterName=Pending_ApprovalSubmissions" target="_self">
+                            Manage All Pending Appoval Submissions
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="slds-col slds-text-align_center  approval-border">
+                    <a href="/lightning/o/ApprovalWorkItem/list?filterName=Assigned_ApprovalWorkItems" target="_self">
+                        <lightning-icon icon-name="action:approval" size="medium"></lightning-icon>
+                    </a>
+                    <div>
+                        <a href="/lightning/o/ApprovalWorkItem/list?filterName=Assigned_ApprovalWorkItems" target="_self">
+                            Review My Approval Work Items
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="slds-col slds-text-align_center  approval-border">
+                    <a href="/lightning/o/ApprovalSubmission/list?filterName=My_ApprovalSubmissions" target="_self">
+                        <lightning-icon icon-name="standard:submit_for_approval" size="large"></lightning-icon>
+                    </a>
+                    <div>
+                        <a href="/lightning/o/ApprovalSubmission/list?filterName=My_ApprovalSubmissions" target="_self">
+                            Manage My Approval Submissions
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+</template>

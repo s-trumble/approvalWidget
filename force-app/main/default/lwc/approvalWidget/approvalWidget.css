@@ -1,0 +1,6 @@
+.approval-border {
+    border: 1px solid var(--slds-g-color-border-1, #d8dde6);
+    border-radius: 0.25rem;
+    padding: 1rem;
+    background: #fff;
+}

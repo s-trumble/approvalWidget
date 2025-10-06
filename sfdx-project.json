@@ -1,12 +1,20 @@
 {
   "packageDirectories": [
     {
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "approvalWidget",
+      "versionDescription": ""
     }
   ],
-  "name": "vincarHomePage",
+  "name": "approvalWidget",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "64.0"
+  "sourceApiVersion": "64.0",
+  "packageAliases": {
+    "approvalWidget": "0HodM00000013QTSAY",
+    "approvalWidget@0.1.0-1": "04tdM000000DCg5QAG"
+  }
 }

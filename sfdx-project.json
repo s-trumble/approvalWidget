@@ -15,6 +15,7 @@
   "sourceApiVersion": "64.0",
   "packageAliases": {
     "approvalWidget": "0HodM00000013QTSAY",
-    "approvalWidget@0.1.0-1": "04tdM000000DCg5QAG"
+    "approvalWidget@0.1.0-1": "04tdM000000DCg5QAG",
+    "approvalWidget@0.1.0-2": "04tdM000000DChhQAG"
   }
 }
